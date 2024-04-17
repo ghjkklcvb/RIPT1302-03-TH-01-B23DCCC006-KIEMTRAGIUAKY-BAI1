@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng tính toán cơ bản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: rgb(159, 193, 247);">Ứng dụng tính toán cơ bản</h1>
+    <div class="container">
+        <div class="input-group">
+            <input style="margin-top: 10px;" type="number" id="inputA" placeholder="Nhập số A">
+            <input style="margin-top: 10px;" type="number" id="inputB" placeholder="Nhập số B">
+        </div>
+        <div class="button-group">
+            <button onclick="calculate('SUM')">Cộng</button>
+            <button onclick="calculate('SUBTRACT')">Trừ</button>
+            <button onclick="calculate('MULTIPLY')">Nhân</button>
+            <button onclick="calculate('DIVIDE')">Chia</button>
+            <button onclick="reset()">Làm mới</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

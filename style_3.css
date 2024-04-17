@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 80px;
+    border: 2px solid #1662fb;
+    background-color: rgb(217, 237, 237);
+    
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 76px;
+}
+
+#fullname {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section {
+    width: 45%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(186, 186, 186);
+    margin-bottom: 20px;
+    background-color: rgb(254, 250, 234);
+}
+
+#projects img {
+    width: 200px;
+    height: 120px;
+    
+}
+
+h2 {
+    color: rgb(165, 16, 16);
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(19, 19, 224);
+}

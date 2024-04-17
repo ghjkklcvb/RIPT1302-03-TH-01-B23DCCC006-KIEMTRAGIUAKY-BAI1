@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 300px;
+}
+
+input[type="number"] {
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#timer {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#alarm {
+    display: none; /* Ẩn thẻ audio */
+}
